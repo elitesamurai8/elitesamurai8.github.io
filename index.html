@@ -3,65 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.google-analytics.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:;">
+    <meta name="description" content="Midias - Adaptive messaging platform that transforms communication">
+    <meta name="keywords" content="messaging,communication,chameleon,enterprise">
+    <meta name="author" content="Elite Samurai">
+    <meta property="og:title" content="Midias - The Message Chameleon">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://elitesamurai8.github.io">
     <title>Midias - The Message Chameleon</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-            color: #333;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 2rem;
-            text-align: center;
-        }
-        h1 {
-            color: #2c3e50;
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
-        }
-        .tagline {
-            font-size: 1.5rem;
-            color: #7f8c8d;
-            margin-bottom: 2rem;
-        }
-        .description {
-            background: white;
-            padding: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            margin-bottom: 2rem;
-        }
-        .github-link {
-            display: inline-block;
-            background: #2c3e50;
-            color: white;
-            padding: 0.8rem 1.5rem;
-            text-decoration: none;
-            border-radius: 4px;
-            font-weight: bold;
-            transition: background 0.3s;
-        }
-        .github-link:hover {
-            background: #1a252f;
-        }
-    </style>
+    <link rel="stylesheet" href="src/css/main.css">
+    <link rel="icon" href="src/images/favicon.ico">
+    <!-- Structured data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Midias",
+      "url": "https://elitesamurai8.github.io",
+      "description": "Adaptive messaging platform that transforms communication"
+    }
+    </script>
 </head>
 <body>
-    <div class="container">
-        <h1>Midias</h1>
-        <p class="tagline">The Message Chameleon</p>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">Midias</div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#demo">Demo</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="container">
+        <section class="hero">
+            <h1>Midias</h1>
+            <p class="tagline">The Message Chameleon</p>
+            <p class="subtitle">Enterprise-Grade Adaptive Messaging Platform</p>
+        </section>
         
-        <div class="description">
-            <p>Midias is a versatile platform that adapts to your messaging needs, changing its form to fit any communication context.</p>
-            <p>Like a chameleon changes its colors, Midias transforms to deliver your message in the most effective way possible.</p>
-        </div>
-        
-        <a href="https://github.com/elitesamurai8" class="github-link">View on GitHub</a>
-    </div>
+        <section id="features" class="features">
+            <!-- Feature sections would go here -->
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <p>&copy; <span id="year"></span> Elite Samurai. All rights reserved.</p>
+        <ul class="footer-links">
+            <li><a href="/privacy">Privacy Policy</a></li>
+            <li><a href="/terms">Terms of Service</a></li>
+        </ul>
+    </footer>
+    
+    <script src="src/js/app.js"></script>
 </body>
 </html>
