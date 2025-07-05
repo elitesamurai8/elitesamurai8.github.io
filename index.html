@@ -3,59 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.google-analytics.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:;">
     <meta name="description" content="Midias - Adaptive messaging platform that transforms communication">
-    <meta name="keywords" content="messaging,communication,chameleon,enterprise">
-    <meta name="author" content="Elite Samurai">
-    <meta property="og:title" content="Midias - The Message Chameleon">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://elitesamurai8.github.io">
     <title>Midias - The Message Chameleon</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;600;800&display=swap">
     <link rel="stylesheet" href="src/css/main.css">
     <link rel="icon" href="src/images/favicon.ico">
-    <!-- Structured data for SEO -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
-      "name": "Midias",
-      "url": "https://elitesamurai8.github.io",
-      "description": "Adaptive messaging platform that transforms communication"
-    }
-    </script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <header class="header">
+    <div class="grid-container">
+        <!-- Navigation -->
         <nav class="navbar">
-            <div class="logo">Midias</div>
-            <ul class="nav-links">
-                <li><a href="#features">Features</a></li>
-                <li><a href="#demo">Demo</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <div class="navbar-container">
+                <a href="#" class="logo">MIDIAS</a>
+                <div class="nav-links">
+                    <a href="#features">Features</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#" class="btn-primary">Get Started</a>
+                </div>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
         </nav>
-    </header>
-    
-    <main class="container">
+
+        <!-- Hero Section -->
         <section class="hero">
-            <h1>Midias</h1>
-            <p class="tagline">The Message Chameleon</p>
-            <p class="subtitle">Enterprise-Grade Adaptive Messaging Platform</p>
+            <div class="hero-content">
+                <h1 class="hero-title"><span class="text-gradient">Adapt.</span> <span class="text-gradient">Transform.</span> <span class="text-gradient">Communicate.</span></h1>
+                <p class="hero-subtitle">Midias - The Message Chameleon</p>
+                <p class="hero-text">The ultimate urban communication platform that morphs to your needs</p>
+                <div class="hero-cta">
+                    <a href="#" class="btn-primary">Start Free Trial</a>
+                    <a href="#demo" class="btn-secondary">Watch Demo <i class="fas fa-play"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="color-block"></div>
+                <img src="src/images/hero-illustration.png" alt="Midias app interface" class="hero-img">
+            </div>
         </section>
-        
-        <section id="features" class="features">
-            <!-- Feature sections would go here -->
+
+        <!-- Features Section -->
+        <section class="features" id="features">
+            <h2 class="section-title">Urban Communication <span class="text-gradient">Reinvented</span></h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shapes"></i>
+                    </div>
+                    <h3>Adaptive Formatting</h3>
+                    <p>Your messages automatically adapt to the recipient's preferred style</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Instant Translation</h3>
+                    <p>Seamless communication across 50+ languages in real-time</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>End-to-End Encryption</h3>
+                    <p>Military-grade security for all your communications</p>
+                </div>
+            </div>
         </section>
-    </main>
-    
-    <footer class="footer">
-        <p>&copy; <span id="year"></span> Elite Samurai. All rights reserved.</p>
-        <ul class="footer-links">
-            <li><a href="/privacy">Privacy Policy</a></li>
-            <li><a href="/terms">Terms of Service</a></li>
-        </ul>
-    </footer>
-    
+
+        <!-- CTA Section -->
+        <section class="cta">
+            <div class="cta-content">
+                <h2>Ready to transform your communication?</h2>
+                <p>Join thousands of urban professionals using Midias daily</p>
+                <a href="#" class="btn-primary btn-large">Get Midias Now</a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">MIDIAS</a>
+                    <p>The Message Chameleon</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Product</h4>
+                    <a href="#">Features</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">API</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <a href="#">About</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Midias. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
     <script src="src/js/app.js"></script>
 </body>
 </html>

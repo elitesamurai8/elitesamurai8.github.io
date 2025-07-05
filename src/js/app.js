@@ -25,3 +25,12 @@ if('serviceWorker' in navigator) {
             });
     });
 }
+
+// Mobile menu toggle
+document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+    const navLinks = document.querySelector('.nav-links');
+    navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+});
+
+// Set current year in footer
+document.getElementById('year').textContent = new Date().getFullYear();
